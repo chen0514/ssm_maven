@@ -1,6 +1,7 @@
-create table muser(
-id varchar2(36) primary key,
-name varchar2(36),
-age number(8),
-address varchar2(36)
-);
+CREATE TABLE `muser` (
+   `id` int(11) NOT NULL,
+   `name` varchar(45) DEFAULT NULL,
+   `age` int(11) DEFAULT NULL,
+   `address` varchar(45) DEFAULT NULL,
+   PRIMARY KEY (`id`)
+ ) ENGINE=InnoDB DEFAULT CHARSET=utf8
